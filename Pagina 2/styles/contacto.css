@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+}
+
+header{
+    background-color: rgb(78, 76, 76);
+    color: white;
+}
+
+.barra-principal{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: solid 4px #1293d4;
+}
+
+.title{
+    display: flex;
+    margin-left: 30px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+.blue{
+    color: #1293d4;
+}
+
+nav{
+    margin-right: 100px;
+}
+
+ul{
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+
+.Subcribe{
+    padding: 20px 200px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+input{
+    padding: 10px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+.button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: arial;
+    margin: 3px;
+}
+
+main{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    padding: 50px;
+    width: 50vw;
+}
+
+.dates{
+    width: 50vw;
+}
+
+.button-form{
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: arial;
+    margin: 10px;
+    width: 50vw;
+    padding: 10px;
+    align-items: center;
+}
+
+.content .content-target{
+    width: 40vw;
+}
+
+.grey{
+    background-color: grey;
+    padding: 10px;
+    width: 30vw;
+}
+
+img{
+    width: 30vw;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
+footer{
+    height: 80px;
+    background-color: #1293d4;
+    position:static;
+    justify-content: center;
+    align-items: center;
+}
+
+.foo{
+    text-align: center;
+    padding: 30px;
+    text-transform:capitalize;
+    font-weight: 600;
+    color: white;
+}
+
+
